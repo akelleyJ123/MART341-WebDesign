@@ -1,0 +1,17 @@
+- **Div**
+    - Used Div to organize and style sections of the heading and made the title + tagline its own id.
+    - Used Div to organize media sections. Separated video, audio, and map sections.
+- **Span**
+    - Used Span to style various headings throughout the page
+    - Used Span to format about paragraph. Changed color of text and made it double spaced.
+- **Audio**
+    - Added a calm coffee shop track for users to listen to while they browse the site.
+- **Video**
+    - Added a video to the top of media section.
+- **Iframe**
+    - Used iframe to link to a fake location placed on google maps using MyMaps.
+- **Class**
+    - Used Class attribute to organize the heading into one section.
+    - Used Class attribute to style about and media sections. Center-aligned all of their text
+- **Escape Character**
+    - Used Escape Character to put quotation marks around tagline.
