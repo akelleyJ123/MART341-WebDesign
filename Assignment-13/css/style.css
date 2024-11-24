@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* for mobile*/
+.home-image{
+    opacity: 65%;
+    max-width: 100%;
+}
+.menu-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(100, 161, 163, .75);
+    font-size: 200%;
+    color: #f5d185;
+    text-decoration: none;
+    border: #2c230e;
+    border-radius: 50%;
+    width: 30%;
+}
+.menu-link:hover{
+    background-color: #a55d3d;
+}
+.home-body{
+    position: relative;
+}
+
+.home-container{
+    text-align: center;
+}
+.home-banner{
+    display: block;
+    background-color: #2c230e;
+    color: #f5d185;
+    padding: 10%;
+}
+.nav-banner a{
+    display: block;
+    color: #f5d185;
+    text-decoration: none;
+    padding: .5%;
+    background-color: #2c230e;
+    padding: 5%;
+}
+body{
+    background-color: #9e7e5e;
+}
+.hidden-menu{
+    display: none;
+}
+.nav-banner:hover .hidden-menu{
+    display: block;
+}
+.nav-banner:hover a {
+    background-color:#a55d3d
+}
+a:hover{
+    color: #2c230e;
+}
+.menu-body{
+    text-align: center;
+    padding: 5%;
+}
+.menu-title{
+    color: #f5d185;
+    font-size: 3em;
+}
+ul{
+    list-style-type: none;
+    padding: 5%;
+    color: #f5d185;
+}
+li{
+    padding: 2%;
+}
+h2{
+    color: #2c230e;
+}
+.about-body{
+    text-align: center;
+    padding: 10%;
+    font-size: 1.5em;
+    color: #2c230e;
+}
+.about-title{
+    color: #f5d185;
+}
+.contact-head{
+    color: #f5d185;
+    font-size: 3em;
+    text-align: center;
+    padding: 5%;
+}
+.contact-body{
+    text-align: center;
+}
+@media only screen and (min-width: 600px){
+    /*for tablets*/
+    .menu-link{
+        width: 20%;
+    }
+    .nav-banner a{
+        padding: 2%;
+    }
+    .home-banner{
+        padding: 5%;
+    }
+    ul {
+        padding: 3%;
+    }
+    .about-body {
+        font-size: 1.6em;
+    }
+}
+@media only screen and (min-width: 700px){
+    .menu-link{
+        width: 15%;
+        max-width: 20%;
+    }
+    .home-image{
+        width: 100%;
+    }
+    .nav-banner a{
+        padding: 1%;
+    }
+    .home-banner{
+        padding: 2%;
+        font-size: 150%;
+    }
+    ul {
+        padding: .2%;
+    }
+    li {
+        padding: 1%;
+    }
+    .about-body{
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 175%;
+    }
+}
