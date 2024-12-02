@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    text-align: center;
+}
+.hours-head {
+    color: rgb(255, 195, 15);
+}
+.hours {
+    color: whitesmoke;
+}
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+.menu-cat {
+    color: rgb(255, 195, 15);
+}
+
+.menu-item {
+    padding: .5%;
+}
+.about-body {
+    padding: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
