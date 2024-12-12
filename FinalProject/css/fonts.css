@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "DeliusUnicase-Bold";
+    src: url(../fonts/DeliusUnicase-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: "LeckerliOne-Regular";
+    src: url(../fonts/LeckerliOne-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family:"Overpass-Light";
+    src: url(../fonts/Overpass-Light.ttf) format(truetype);
+}
+@font-face {
+    font-family:"Overpass-SemiBoldItalic";
+    src: url(../fonts/Overpass-SemiBoldItalic.ttf) format(truetype);
+}

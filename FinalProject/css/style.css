@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Overpass-SemiBoldItalic";
+}
+
+.navbar-brand {
+    font-family: "LeckerliOne-Regular";
+}
+
+img {
+    opacity: 50%;
+}
+
+/*Home page*/
+.hours-head {
+    color: rgb(255, 195, 15);
+    font-family: "Overpass-SemiBoldItalic";
+}
+
+.hours-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    margin-top: -45%;
+}
+
+/*Menu Page*/
+.menu-category{
+    color: rgb(255, 195, 15);
+    font-family: "Overpass-SemiBoldItalic";
+}
+
+.drink-name{
+    font-size: 125%;
+    color: rgb(156, 196, 178);
+}
+
+.menu-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    margin-top: -45%;
+}
+/* About Page */
+.about-head{
+    color: rgb(255, 195, 15);
+    font-family: "Overpass-SemiBoldItalic";
+}
+
+.about-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -45%;
+    color: rgb(156, 196, 178);
+}
+
+@media only screen and (max-width: 750px) {
+
+}
