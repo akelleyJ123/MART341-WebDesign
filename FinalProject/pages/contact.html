@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../css/fonts.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <title>Menu</title>
+        <title>Contact</title>
     </head>
     <body>
         <!--Create Navigation Bar-->
@@ -45,25 +45,25 @@
                 </div>
             </div>
         </nav>
-        <!--Create Menu. Didn't use list to increase customization and make it easier to position-->
-        <div class="menu">
-            <img src="../images/homeBG.jpg" width="100%" height="100%">
-            <div class="menu-list">
-                <h2 class="menu-category">Classics</h2>
-                <p><span class="drink-name">Latte</span> | 3.75</p>
-                <p><span class="drink-name">Mocha</span> | 4.25</p>
-                <p><span class="drink-name">Cappuccino</span> | 3.50</p>
-                <p><span class="drink-name">Espresso</span> | 2.50</p>
-                <h2 class="menu-category">Specialty Drinks</h2>
-                <p><span class="drink-name">Caramel Latte</span> | 4.25</p>
-                <p><span class="drink-name">Chai Latte</span> | 4.50</p>
-                <p><span class="drink-name">Matcha Latte</span> | 4.50</p>
-                <p><span class="drink-name">London Fog</span> | 4.25</p>
-                <h2 class="menu-category">Seasonal</h2>
-                <p><span class="drink-name">Eggnog Latte</span> | 4.75</p>
-                <p><span class="drink-name">Peppermint Mocha</span> | 4.50</p>
-                <p><span class="drink-name">Hazelnut White Mocha</span> | 4.50</p>
-            </div>
+        <br>
+        <!--Create form-->
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email">                  
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="Textarea1">Comments</label>
+                    <textarea class="form-control" id="Textarea1" rows="3" placeholder="Suggestions"></textarea>
+                  </div>
+            </form>
+        </div>
+        <!--Embedded Map-->
+        <br>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1ZxEzGCvN5oF-BQmZ6TDnf0hcYmdKP0M&ehbc=2E312F" width="640" height="480"></iframe>
         </div>
     </body>
 </html>
