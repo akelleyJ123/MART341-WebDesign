@@ -11,12 +11,19 @@ body {
 
 img {
     opacity: 50%;
+    min-width: 1000px;
 }
 
 /*Home page*/
 .hours-head {
     color: rgb(255, 195, 15);
     font-family: "Overpass-SemiBoldItalic";
+    
+}
+/*Change color and opactity when hovering over days of the week to increase interactivity*/
+.hours-head:hover{
+    color: rgb(156, 196, 178);
+    opacity: 75%;
 }
 
 .hours-list {
@@ -38,6 +45,15 @@ img {
     font-size: 125%;
     color: rgb(156, 196, 178);
 }
+/*Change color and lower opactity to increase interactivity and animation for the possibility of interactive online ordering functionality*/
+.drink-name:hover{
+    opacity: 75%;
+}
+
+.menu-category:hover{
+    color: rgb(156, 196, 178);
+    opacity: 75%;
+}
 
 .menu-list {
     position: absolute;
@@ -47,7 +63,7 @@ img {
     width: fit-content;
     margin-top: -45%;
 }
-/* About Page */
+/*About Page*/
 .about-head{
     color: rgb(255, 195, 15);
     font-family: "Overpass-SemiBoldItalic";
@@ -65,10 +81,13 @@ img {
     margin-top: -45%;
     color: rgb(156, 196, 178);
 }
-
+/*Contact Page*/
 .contact-form {
     background-color: #27476e;
     padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
 }
 
 .map {
